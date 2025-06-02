@@ -17,7 +17,7 @@ client = OpenAI(api_key="")
 
 """# **get_input_code**
 
-هي داله بس بتحدد اذا يلي دخلته نص,رابط او ملف
+
 """
 
 def get_input_code(input_type: str, value: str) -> str:
@@ -33,8 +33,6 @@ def get_input_code(input_type: str, value: str) -> str:
     return ""
 
 """# **detect_language**
-
-باختصار ببعت رساله لopenaiوبحدد من خلالها اللغه وبرجع
 """
 
 def detect_language(code: str) -> str:
